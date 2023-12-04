@@ -1,14 +1,14 @@
-.offer-container{
+.intro-container{
     background-color: #1d33756e;
-    height: 50vh;
+    height: 80vh;
 }
 
-.offer_information{
+.intro_information{
     padding: 2rem;
     overflow-wrap: break-word;
 }
 
-.offer_organization{
+.intro_organization{
     display: flex;
     flex-direction: column;
     gap: 2rem;

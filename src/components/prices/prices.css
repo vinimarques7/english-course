@@ -1,14 +1,14 @@
-.offer-container{
+.prices-container{
     background-color: #1d33756e;
     height: 50vh;
 }
 
-.offer_information{
+.prices_information{
     padding: 2rem;
     overflow-wrap: break-word;
 }
 
-.offer_organization{
+.prices_organization{
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -17,9 +17,4 @@
 
 h1{
     width: 85vw;
-}
-
-
-.vini_video{
-    padding: 2rem;
 }

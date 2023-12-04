@@ -1,0 +1,17 @@
+.logobar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.logobar_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.vini_image{
+    display: none;
+}

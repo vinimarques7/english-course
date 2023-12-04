@@ -1,7 +1,39 @@
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: 'Fredoka', sans-serif;
+  color: #fff;
 }
+
+body {
+  /* background-color: #6F90F4; */
+  background-color: rgb(43, 42, 42);
+}
+
+.gradient__bg{
+    background: linear-gradient(90deg, rgba(89, 118, 205, 1) 0%, rgba(104, 81, 104, 1) 100%);
+    /* background: radial-gradient(circle at 0% 34%, rgba(89, 118, 205, 1) 0%, rgba(104, 81, 104, 1) 100%); */
+}
+
+
+.App{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background: linear-gradient(45deg, rgba(136, 5, 176, 0.582), transparent 50%, rgba(136, 5, 176, 0.582)),
+  linear-gradient(-45deg, rgba(136, 5, 176, 0.581), transparent 50%,rgba(136, 5, 176, 0.581));
+  background-size: 20px 20px;
+  animation: neonAnimation 1.5s infinite alternate-reverse;
+}
+
+@keyframes neonAnimation {
+  from {
+    filter: brightness(1);
+  }
+  to {
+    filter: brightness(1.2);
+  }
+}
+

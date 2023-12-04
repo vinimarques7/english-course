@@ -1,17 +1,27 @@
-import { useState } from 'react'
+import React from 'react'
 import { Header, Welcome } from './containers'
-import { Logobar, Offer } from './components'
+import { Logobar, Offer, Intro, Prices } from './components'
 import './App.css'
 
 function App() {
   return (
     <>
-      <div>
-        <Logobar />
-        <Header />
+      <div className='App'>
+        <div className='gradient__bg'>
+          <Logobar />
+          <Header />
+        </div>  
+        <div>
+          <Intro />  
+        </div>
+        <div>
+          <Offer />
+        </div>
+        <div>
+          <Prices />
+        </div>
       </div>
       <Welcome />
-      <Offer />
     </>
   )
 }
