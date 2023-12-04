@@ -2,7 +2,7 @@
   "name": "my-vue-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://vinimarques7.github.io/english-course/",
+  "homepage": "/english-course/",
   "type": "module",
   "scripts": {
     "dev": "vite",
