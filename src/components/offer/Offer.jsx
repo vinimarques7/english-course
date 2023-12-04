@@ -1,5 +1,8 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
 import './offer.css'
+
 
 function Offer() {
   return (
@@ -8,8 +11,11 @@ function Offer() {
       <div className='offer_information'>
         <div className='offer_organization'>
             <h1>O que eu posso te oferecer?</h1>
-            <p>Aqui tem um check list das coisas que o curso pode oferecer, além de explicar como as aulas funcionam 
-            </p>
+            <p><FontAwesomeIcon icon={faCheck} /> Flexibilidade de Horários</p>
+            <p><FontAwesomeIcon icon={faCheck} /> Estudo direcionado ao objetivo desejado</p>
+            <p><FontAwesomeIcon icon={faCheck} /> Estudo utilizando mídias</p>
+            <p><FontAwesomeIcon icon={faCheck} /> Conversação individual</p>
+            <p><FontAwesomeIcon icon={faCheck} /> Aulas online focadas na sua automomia</p>
         </div>
       </div>
 
