@@ -10,8 +10,8 @@ function Prices() {
       <div className='prices_information'>
         <div className='prices_organization'>
             <h1>PACOTES DISPONÍVEIS!</h1>
-            <p><FontAwesomeIcon icon={faCheck} /> R$240 uma aula semanal</p>
-            <p><FontAwesomeIcon icon={faCheck} /> R$420 duas aulas semanais + UMA AULA GRÁTIS!</p>
+            <p><FontAwesomeIcon icon={faCheck} /> R$240: 4 AULAS POR MÊS</p>
+            <p><FontAwesomeIcon icon={faCheck} /> R$420: 8 AULAS POR MÊS (UMA SAI GRÁTIS!)</p>
         </div>
       </div>
 

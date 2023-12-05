@@ -37,3 +37,38 @@ body {
   }
 }
 
+
+@media screen and (min-width: 700px){
+  .App{
+    padding: 4rem;
+    margin: 4rem;
+  }
+  h1{
+    font-size: 1.8rem;
+  }
+}
+
+
+
+@media screen and (min-width: 1024px){
+  .App{
+    display: none;
+  }
+
+}
+
+
+
+/* Computer cat loading gif */
+
+@media screen and (max-width: 1023px) {
+  .cat_class {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cat_class {
+    display: block;
+  }
+}
