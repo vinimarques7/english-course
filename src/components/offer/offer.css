@@ -1,0 +1,25 @@
+.offer-container{
+    background-color: #1d33756e;
+    height: 75vh;
+}
+
+.offer_information{
+    padding: 2rem;
+    overflow-wrap: break-word;
+}
+
+.offer_organization{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+h1{
+    width: 85vw;
+}
+
+
+.vini_video{
+    padding: 2rem;
+}

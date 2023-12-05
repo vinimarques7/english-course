@@ -1,0 +1,24 @@
+.intro-container{
+    background-color: #1d33756e;
+    height: 140vh;
+}
+
+.intro_information{
+    padding: 2rem;
+    overflow-wrap: break-word;
+}
+
+.intro_organization{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.vini_video{
+    padding: 2rem;
+}

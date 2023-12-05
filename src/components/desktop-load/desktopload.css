@@ -1,0 +1,44 @@
+.desktop_version {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    height: 100vh;
+    gap: 3rem;
+  }
+  
+.desktop_version img {
+    max-width: 100%;
+    height: auto;  
+}
+
+.desktop_version h1{
+    display: flex;
+    justify-content: center;
+}
+
+.desktop_version p{
+    font-size: 1.5rem;
+}
+
+.desktop_version a{
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: #6F90F4;
+    box-shadow: 0 4px 4px #0004;
+    transition: 0.5s;
+}
+
+.desktop_version a:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+    transform: translateY(-15%);
+    position: pointer;
+}
+
+  
